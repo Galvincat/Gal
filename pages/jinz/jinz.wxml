@@ -1,0 +1,24 @@
+
+<view class="container">
+   
+   <view>
+      <text>数值输入区:</text>
+   <view class="t">
+      <input type="text" placeholder="请输入数值" bindinput="onInputChange" value="{{inputValue}}"/>
+   </view>
+      
+   </view>
+      
+  </view>
+    <view class="group">
+      <button class="btn {{activeIndex===0?'active':''}}" bindtap="onClickDecimal">十进制</button>
+      <button class="btn {{activeIndex===1?'active':''}}" bindtap="onClickBinary">二进制</button>
+      <button class="btn {{activeIndex===2?'active':''}}" bindtap="onClickOctal">八进制</button>
+      <button class="btn {{activeIndex===3?'active':''}}" bindtap="onClickHexadecimal">十六进制</button>
+    </view>
+  
+    <view class="result">
+    <text>转化结果为：</text>
+      <text>{{result}}</text>
+    </view>
+  

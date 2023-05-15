@@ -1,0 +1,39 @@
+/* 样式部分 */
+.container {
+    padding: 10px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px gray solid;
+    height: 5vh;
+  }
+  
+  .input-wrapper text {
+    margin-right: 10px;
+  }
+  
+  .calculate {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(11, 83, 238);
+  }
+  
+  .result {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .result .label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .result .value {
+    color: #f00;
+  }

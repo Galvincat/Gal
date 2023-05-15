@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="title">质量单位转换</view>
+  <view class="input-container">
+    <view class="label">输入：</view>
+    <input class="input" type="text" placeholder="请输入数值" bindinput="onInputValueChange" />
+    <picker mode="selector" range="{{unitList}}" bindchange="onInputUnitChange">
+  <view class="picker">{{inputUnit}}</view>
+</picker>
+  </view>
+  <view class="output-container">
+    <view class="label">转换：</view>
+<text class="output">{{outputValue}}</text>
+    <picker mode="selector" range="{{unitList}}" bindchange="onOutputUnitChange">
+  <view class="picker">{{outputUnit}}</view>
+</picker>
+  </view>
+</view>

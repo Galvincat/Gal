@@ -1,0 +1,17 @@
+<view class="container">
+<text style="margin-top: 13vh;margin-bottom: 5vh;font-size: 2em;font-weight: bolder;">BMI计算</text>
+  <view class="input-container">
+    <view class="label">身高(m):</view>
+    <input placeholder="请输入身高" bindinput="onHeightInput" type="text" />
+  </view>
+  <view class="input-container">
+    <view class="label">体重(kg):</view>
+    <input placeholder="请输入体重" bindinput="onWeightInput" type="text" />
+  </view>
+  <button class="button" bindtap="onCalculate">计算BMI</button>
+  <view class="result-container">
+    <view class="label">BMI:</view>
+    <view class="result">{{ bmi }}</view>
+    <view class="text">{{ text }}</view>
+  </view>
+</view>

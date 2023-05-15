@@ -1,0 +1,6 @@
+<!--pages/advice/advice.wxml-->
+
+    <button open-type="contact" class="but">在线客服</button>
+<button open-type="feedback" class="but">意见反馈</button>
+
+

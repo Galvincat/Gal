@@ -1,0 +1,39 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/list/list",
+    "pages/list11/list11",
+    "pages/space/space",
+    "pages/list12/list12",
+    "pages/lunt/lunt",
+    "pages/my/my",
+    "pages/jinz/jinz",
+    "pages/message/message",
+    "pages/logs/logs",
+    "pages/suiji/suiji",
+   "pages/long/long",
+   "pages/ele/ele",
+   "pages/area/area",
+  "pages/time/time",
+  "pages/weight/weight",
+  "pages/tongji/tongji",
+  "pages/BMI/BMI",
+  "pages/log/log",
+  "pages/pow/pow",
+  "pages/A/A",
+  "pages/plzh/plzh",
+  "pages/advice/advice"
+  ],
+  "window":{
+   
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00B36C",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "lazyCodeLoading": "requiredComponents"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}

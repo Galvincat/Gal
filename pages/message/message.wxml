@@ -1,0 +1,24 @@
+<view class="wrap">
+    <image class="face" src="{{userInfo.avatarUrl}}" mode=""/>
+<view class="name" >{{userInfo.nickName}}</view>
+</view>
+<button bindtap="login"> 登录</button>
+
+<view class="item">
+    <view class="item-title">昵称：</view>
+    <input class="item-input" type="text" placeholder="请输入昵称" value="{{nickname}}" bindinput="inputNickname"/>
+  </view>
+  <view class="item">
+    <view class="item-title">性别：</view>
+    <radio-group class="radio-group">
+      <radio class="radio" value="男" checked="{{gender=='男'}}" bindchange="radioChange">男</radio>
+      <radio class="radio" value="女" checked="{{gender=='女'}}" bindchange="radioChange">女</radio>
+    </radio-group>
+  </view>
+  <view class="item">
+    <view class="item-title">个人签名：</view>
+    <textarea class="item-textarea" placeholder="请输入个人签名" value="{{signature}}" bindinput="inputSignature"></textarea>
+  </view>
+  <button class="save-btn" bindtap="saveInfo">保存</button>
+
+

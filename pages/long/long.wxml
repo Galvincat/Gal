@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="title">长度单位转换器</view>
+  <view class="input-wrapper">
+    <text>输入值：</text>
+    <input class="input" type="text" bindinput="onInputChange" placeholder="点击右侧可切换输入单位"/>
+    <picker class="picker" mode="selector" bindchange="onInputUnitChange" value="{{inputUnitIndex}}" range="{{unitOptions}}">
+      <view class="picker-text">{{inputUnit}}</view>
+    </picker>
+  </view>
+  <view class="output-wrapper">
+    <text>转换值：</text>
+    <input class="output" type="number" placeholder="点击右侧可切换转换单位" value="{{outputValue}}" disabled />
+    <picker class="picker" mode="selector"  bindchange="onOutputUnitChange"  value="{{outputUnitIndex}}"  range="{{unitOptions}}">
+      <view class="picker-text">{{outputUnit}}</view>
+    </picker>
+  </view>
+</view>

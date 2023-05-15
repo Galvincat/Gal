@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="input-group">
+    <text>请输入数值范围：</text>
+    <input class="input" type="text" bindinput="handleStartInput" placeholder="起始值" />
+    <input class="input" type="text" bindinput="handleEndInput" placeholder="终值" />
+  </view>
+  <view class="input-group">
+    <text>请输入随机数个数：</text>
+    <input class="input" type="text" bindinput="handleCountInput" placeholder="请输入个数" />
+  </view>
+  <button class="btn" bindtap="generateRandomNumbers">生成</button>
+  <view class="result" wx:if="{{randomNumbers}}">
+    <text>随机数：</text>
+    <text wx:for="{{randomNumbers}}">{{item}} </text>
+  </view>
+</view>

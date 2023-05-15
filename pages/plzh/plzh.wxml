@@ -1,0 +1,21 @@
+<!-- 界面部分 -->
+<view class="container">
+ <text style="margin-bottom: 8vh;margin-top: 19vh;font-size: 2em;font-weight: bolder;">排列组合计算</text>
+  <view class="input-wrapper">
+    <text>上n:</text>
+    <input type="number" bindinput="onInputM" />
+  </view>
+  <view class="input-wrapper">
+    <text>下m:</text>
+    <input type="number" bindinput="onInputN" />
+  </view>
+  <button class="calculate" bindtap="onCalculate">计算</button>
+  <view class="result">
+    <text class="label">组合数：</text>
+    <text class="value">{{combination}}</text>
+  </view>
+  <view class="result">
+    <text class="label">排列数：</text>
+    <text class="value">{{permutation}}</text>
+  </view>
+</view>

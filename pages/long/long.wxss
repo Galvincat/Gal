@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4vh;
+  }
+  
+  .input-wrapper,
+  .output-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4vh;
+    height: 40px;
+  }
+  
+  .input {
+    width: 25vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px rgb(221, 213, 213) solid;
+    height: 5vh;
+    font-size: 18px;
+    border-radius: 5%;
+  }
+  
+  .output {
+    width: 28vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px rgb(221, 213, 213) solid;
+    height: 5vh;
+    font-size: 18px;
+    border-radius: 5%;
+  }
+  
+  .picker {
+    margin-left: 10px;
+  }
+  
+  .picker-text {
+    color: #999999;
+  }
+  

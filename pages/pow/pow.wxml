@@ -1,0 +1,15 @@
+<view class="container">
+<text style="margin-bottom: 7vh;font-size: 2em;font-weight: bolder;"f >指幂运算</text>
+  <view class="input-wrapper">
+    <text class="input-label">指幂：</text>
+    <input class="input" type="text" bindinput="onBaseChange" />
+  </view>
+  <view class="input-wrapper">
+    <text class="input-label">指数：</text>
+    <input class="input" type="text" bindinput="onExponentChange" />
+  </view>
+  <button class="btn" bindtap="onCalculate">计算</button>
+  <view class="output-wrapper" wx:if="{{result}}">
+    <text class="result">计算结果：{{result}}</text>
+  </view>
+</view>

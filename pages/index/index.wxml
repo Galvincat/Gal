@@ -1,0 +1,22 @@
+<!--主页面-->
+<view>
+    <text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<button class="f" bindtap="goto1">实用工具</button>
+<text>\n</text>
+
+<button class="f" bindtap="handleShowModalll">AI软件合集</button>
+<!--背景图片-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="/背景.jpg"></image>
+
+</view>
+</view>
+<view class="button">
+    <button class="button-item"> 首页</button>
+    <button class="button-item" bindtap="gotolunt">论坛</button>
+    <button class="button-item" bindtap="gotomy">我的</button>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/lunt/lunt.wxml-->
+<text style="font-size: 12px; color: gray;">广告招标</text>
+<swiper class="swiper-con" indicator-dots indicator-color="white" indicator-active-color="red" autoplay interval="100" circular>
+    <swiper-item class="item">
+   <!--<image src="/basketball1.jpg" style="width: 100vw;"/>-->
+   <text class="gg1">广告</text>
+    </swiper-item>
+    <swiper-item class="item">
+  <!--<image src="/basketball2.jpg" style="width: 100vw;"/>>--> 
+  <text class="gg2">广告</text>
+    </swiper-item>
+    <swiper-item class="item">
+    <!--<image src="/basketball3.jpg" style="width: 100vw;"/>-->
+    <text class="gg3">广告</text>
+    </swiper-item>
+</swiper>
+
+<view class="cont">
+<view >
+    <input type="text" class="cont-itemt" placeholder="请输入你的想法"/>
+    
+</view>
+<button style="font-size: 15px;line-height: 10px; width: 100px;height: 25px; border: 1px solid; margin-top: 9px; background-color: gray;" bindtap="handleShowModal" >发送</button>
+</view>
+
+
+<view class="list1">
+    <button type="primary" bindtap="b">+1</button>
+<text>\n</text>
+<view>功德{{count}}</view>  
+</view>

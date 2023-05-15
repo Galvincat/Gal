@@ -1,0 +1,53 @@
+.container {
+    margin-top: 40rpx;
+    padding: 20rpx;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20rpx;
+  }
+  
+  .label {
+    width: 150rpx;
+    font-size: 1em;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10rpx;
+    border: 1rpx solid #999;
+    border-radius: 5rpx;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 40rpx;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 28rpx;
+    padding: 10rpx 20rpx;
+    border-radius: 5rpx;
+  }
+  
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rpx;
+  }
+  
+  .result {
+    font-size: 60rpx;
+    font-weight: bold;
+    margin-right: 20rpx;
+    color: #cc0000;
+  }
+  
+  .text {
+    font-size: 28rpx;
+    color: #666;
+    font-family: 宋体;
+  }

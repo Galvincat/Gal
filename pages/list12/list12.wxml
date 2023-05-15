@@ -1,0 +1,7 @@
+<!--幸运大转盘页面-->
+<view class="body">
+  <view class="box">
+    <image class="bg" src="{{bg}}" animation="{{animationRotate}}"></image>
+    <image bindtap="lottery" class="arrows {{isTurnOver?'':'grayscale'}}" src="{{arrows}}"></image>
+  </view>
+</view>

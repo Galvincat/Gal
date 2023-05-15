@@ -1,0 +1,40 @@
+
+<view class="container">
+<text style="margin-bottom: 5vh;font-size: 2em; font-weight: bolder;">统计计算</text>
+  <view class="input-panel">
+    <textarea class="input-text" bindinput="onInput" placeholder="请输入数字，半角输入，结尾无符号。例如:1,2,3,4"></textarea>
+    <button class="button" bindtap="calculate">计算</button>
+  </view>
+  <view class="result-panel">
+    <view class="result-item">
+      <text>中位数：</text>
+      <text>{{ median }}</text>
+    </view>
+    <view class="result-item">
+      <text>平均数：</text>
+      <text>{{ average }}</text>
+    </view>
+    <view class="result-item">
+      <text>总和值：</text>
+      <text>{{ sum }}</text>
+    </view>
+    <view class="result-item">
+      <text>方差：</text>
+      <text>{{ variance }}</text>
+    </view>
+    <view class="result-item">
+      <text>标准差：</text>
+      <text>{{ standardDeviation }}</text>
+    </view>
+    <text style="margin-left: -7vw;">百分比：</text>
+    <view class="result-item">
+      
+      <textarea class="input-text1" >{{ percentages }}</textarea>
+      
+    </view>
+    <view class="result-item">
+      <text>加权平均数：</text>
+      <text>{{ weightedAverage }}</text>
+    </view>
+  </view>
+</view>

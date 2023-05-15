@@ -1,0 +1,21 @@
+/* pages/my/my.wxss */
+.p{
+    height: 450rpx;
+  
+}
+.b{
+    border: 1px solid;
+    height: 40px;
+    margin-top: 20px;
+    text-align: start;
+    box-shadow: 5rpx 5rpx 5rpx 5rpx #575353;
+}
+.t{
+   position: fixed;
+   text-align: center;
+   bottom: 30rpx;
+   right: 0;
+   left: 0;
+   color: gray;
+   font-size: 10px;
+}

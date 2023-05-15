@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40rpx;
+  }
+  
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 78rpx;
+    margin-top: 2vh;
+    
+  }
+  
+  .input-container,
+  .output-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30rpx;
+    border: 1rpx solid #565d64;
+    box-shadow: 5rpx 5rpx 5rpx 5rpx #630d79;
+  }
+  
+  .label {
+    font-size: 40rpx;
+    margin-right: 20rpx;
+  }
+  
+  .picker {
+    font-size: 38rpx;
+    color: #ac0d9e;
+    padding: 0 10rpx;
+  }
+  
+  .input {
+    width: 300rpx;
+    font-size: 34rpx;
+    text-align: right;
+    padding: 10rpx;
+    height: 3.5vh;
+    border-radius: 5rpx;
+    margin-left: 10rpx;
+    color: rgb(189, 130, 238);
+    
+  }
+  
+  .output {
+   width: 300rpx;
+font-size: 33rpx;
+text-align: right;
+padding: 10rpx;
+border-radius: 20px;
+margin-left: 10rpx;
+height: 3.5vh;
+  }
+  

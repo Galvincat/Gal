@@ -1,0 +1,6 @@
+<view class="container">
+<text style="font-size: 2em;font-weight: bolder;margin-bottom: 3vh;">阶乘计算</text>
+  <input class="input" type="number" placeholder="请输入正整数" bindinput="onInput"/>
+  <button class="button" bindtap="onCalculate">计算</button>
+  <view class="result">计算结果：{{result}}</view>
+</view>

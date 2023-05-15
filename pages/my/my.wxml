@@ -1,0 +1,18 @@
+<!--pages/my/my.wxml-->
+<view >
+    <image src="/my.jpg" style="width: 100vw;"/>
+</view>
+<view>
+    <button style="width: 97%;" bindtap="gotomessage" class="b" >个人信息</button>
+</view>
+<view>
+    <button style="width: 97%;" bindtap="advice" class="b" >意见反馈</button>
+</view>
+<view>
+    <button style="width: 97%;" bindtap="gotochat" class="b" >关于我们</button>
+</view>
+<view class="t">
+
+<text> 测试版：1.0</text>
+
+ </view>

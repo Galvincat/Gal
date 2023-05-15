@@ -1,0 +1,7 @@
+/* pages/advice/advice.wxss */
+.but{
+    
+    border: 1px black solid;
+margin-top: 12vh;
+background-color: rgb(16, 180, 230);
+}

@@ -1,0 +1,27 @@
+<view class="container">
+<text style="font-size: 2em; font-weight: bolder;">电单位转换</text>
+  <view class="header">
+    <button class="{{currentTab == 0 ? 'active' : ''}}" bindtap="clickCurrentTab">电流</button>
+    <button class="{{currentTab == 1 ? 'active' : ''}}" bindtap="clickVoltageTab">电压</button>
+    <button class="{{currentTab == 2 ? 'active' : ''}}" bindtap="clickResistanceTab">电阻</button>
+  </view>
+  <view class="input-box">
+    <view class="input-title">输入</view>
+    <view class="input-content">
+      <input type="text" placeholder="请输入数值" bindinput="onInput" value="{{inputValue}}"></input>
+      <picker mode="selector" hidden="{{inputUnitPickerHidden}}" range="{{inputUnitOptions}}" bindchange="onInputUnitChange">
+        <view class="picker-text">{{inputUnit}}</view>
+      </picker>
+    </view>
+  </view>
+  <view class="output-box">
+    <view class="output-title">输出</view>
+    <view class="input-content">
+      <text >{{outputValue}}</text>
+     
+      <picker mode="selector" hidden="{{outputUnitPickerHidden}}" range="{{outputUnitOptions}}" bindchange="onOutputUnitChange">
+        <view class="picker-text">{{outputUnit}}</view>
+      </picker>
+    </view>
+  </view>
+</view>

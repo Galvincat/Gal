@@ -1,0 +1,13 @@
+<view class="container">
+<text style="margin-bottom: 10vh; margin-top: 8vh;font-size: 2em;font-weight: bolder;">对数计算</text>
+  <view class="input-container">
+    <text class="input-label">对数的底：</text>
+    <input class="input-field" type="text" bindinput="onBaseInput" />
+  </view>
+  <view class="input-container">
+    <text class="input-label">对数真数：</text>
+    <input class="input-field" type="text" bindinput="onValueInput" />
+  </view>
+  <button class="btn-calculate" bindtap="onCalculate">计算</button>
+  <view wx:if="{{result !== null}}" class="result">计算结果：{{result}}</view>
+</view>

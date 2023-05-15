@@ -1,0 +1,80 @@
+.face{
+    width: 210rpx;
+    height:210rpx;
+    border-radius: 50%;
+    margin-top: 10rpx;
+}
+.name{
+    margin-top: 20rpx;
+
+}
+.wrap{
+    text-align: center;
+    background-color: rgb(227, 238, 238);
+}
+  .header {
+    font-size: 28rpx;
+    color: #333;
+    margin-bottom: 20rpx;
+    border:1px solid;
+    border-radius: 2px;
+  }
+  .upload-btn {
+    background-color: #3c7fff;
+    color: #fff;
+    border-radius: 4rpx;
+    padding: 10rpx 20rpx;
+  }
+  .item {
+    display: flex;
+    margin-bottom: 30rpx;
+    margin-top: 15px;
+  }
+  .item-title {
+    width: 90rpx;
+    font-size: 28rpx;
+    color: #333;
+    font-family: 宋体;
+  font-weight: bolder;
+  }
+  .item-input {
+    flex: 1;
+    height: 60rpx;
+    font-size: 28rpx;
+    color: #333;
+    border: 1rpx solid #ccc;
+    border-radius: 4rpx;
+   
+  
+  }
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+  .radio {
+    font-size: 28rpx;
+    color: #333;
+    margin-right: 20rpx;
+  }
+  .item-textarea {
+    flex: 1;
+    height: 200rpx;
+    font-size: 28rpx;
+    color: #333;
+    border: 1rpx solid #ccc;
+    border-radius: 4rpx;
+    padding: 20rpx;
+    line-height: 40rpx;
+  }
+  .save-btn {
+    background-color: #3c7fff;
+    color: #fff;
+    border-radius: 4rpx;
+    padding: 20rpx;
+    text-align: center;
+    font-size: 32rpx;
+  }
+  .avatar {
+    margin-bottom: 20px;
+    text-align: center;
+  }

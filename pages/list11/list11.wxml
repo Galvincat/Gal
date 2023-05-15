@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="section">
+    <view class="title">转化类</view>
+    <view class="grid">
+    <button class="button" bindtap="gotolong"><image style="width: 45px; height: 45px; margin-bottom: 4vh; margin-left: 0vw;" src="/长度.png"mode=""/> <text>\n\n长度</text> </button>
+    <button class="button" bindtap="gotojinz"><image style="width: 45px; height: 45px;margin-bottom: 4vh; margin-left: 0vw;" src="/字段二进制.png" mode=""/><text>\n\n进制</text></button>
+    <button class="button" bindtap="electricity"><image src="/电流 (1).png" style="width: 45px; height: 45px;margin-bottom: 4vh; margin-left: -2vw;"/><text>\n\n电</text></button>
+    <button class="button" bindtap="area"><image src="/大成像面积.png" style="width: 45px; height: 45px;margin-bottom: 4vh; margin-left: 0vw;"/><text>\n\n面积</text></button>
+    <button class="button" bindtap="space"><image src="/28体积、空间.png" style="width: 45px; height: 45px;margin-bottom: 4vh; margin-left: 0vw;" /><text>\n\n体积</text></button>
+    <button class="button" bindtap="time"><image src="/时间.png" style="width: 45px; height: 45px;margin-bottom: 4vh; margin-left: 0vw;"/><text>\n\n时间</text></button>
+    <button class="button" bindtap="weight"><image src="/024-重量.png" style="width: 45px; height: 45px;margin-bottom: 4vh; margin-left: 0vw;"/><text>\n\n重量</text></button>
+    <!-- <button class="button"><image src="" style="width: 40px; height: 40px;margin-bottom: 4vh; margin-left: 0vw;"/><text></text></button> -->
+    <button class="button" bindtap="handleShowModal"><text>更多……</text></button>
+    </view>
+  </view>
+  <view class="section1">
+    <view class="title">概率类</view>
+    <view class="grid">
+        <button class="button" bindtap="gotosuiji"><image src="/随机.png" style="width: 45px;height: 45px;margin-bottom: 4vh; margin-left: 0vw;"/><text>\n\n随机数</text></button>
+        <button class="button" bindtap="goto12"><image src="/转盘设置.png" style="width: 45px;height: 45px;margin-bottom: 4vh; margin-left: 0vw;"/><text>\n\n转盘</text></button>
+        <button class="button" bindtap="handleShowModal1"><text>更多……</text></button>
+    </view>
+  </view>
+  <view class="section">
+    <view style="margin-top: 2vh; font-size: 2em;font-weight: bolder;">计算类</view>
+    <view class="grid">
+        <button class="button" bindtap="tongji"><image src="/数据看板.png"style="width: 45px;height: 45px;margin-bottom: 4vh; margin-left: 0vw;"/><text>\n\n数据统计</text></button>
+        <button class="button" bindtap="BMI"><image src="/重量.png"style="width:45px;height: 45px;margin-bottom: 4vh;margin-left: 0vw;"/><text>\n\nBMI</text></button>
+        <button class="button" bindtap="log"><image 
+        src="/对数.jpg"style="width:45px;height: 45px;margin-bottom: 4vh;margin-left: 0vw;"/><text>\n\n对数</text></button>
+        <button class="button" bindtap="pow"><image 
+ src="/函数.png"style="width:45px;height: 45px;margin-bottom: 4vh;margin-left: 0vw;"/><text>\n\n指幂</text></button>
+        <button class="button" bindtap="A"><text style="font-size: 1.5EM;margin-bottom: 4vh;margin-left: 0vw;">A!</text><text>\n\n阶乘</text></button>
+        <button class="button" bindtap="plzh"><image src="/排列组合位图1.png" style="width:40px;height: 40px;margin-bottom: 4vh;margin-left: 0vw;"/><text>\n\n排列组合</text></button>
+        <button class="button" bindtap="handleShowModa2"><image src="" style="width:40px;height: 35px;margin-bottom: 4vh;margin-left: 0vw;"/><text>\n\n</text></button>
+        <button class="button" bindtap="handleShowModa3"><image src="" style="width:45px;height: 45px;margin-bottom: 4vh;margin-left: 0vw;" /><text>\n\n</text></button>
+        <button class="button" bindtap="handleShowModal4"><image src="" style="width:45px;height: 45px;margin-bottom: 4vh;margin-left: 0vw;" /><text>\n\n</text></button>
+    </view>
+  </view>
+</view>
